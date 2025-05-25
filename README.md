@@ -40,4 +40,4 @@ Este o aplicație simplă, intuitivă, dar care pune în practică concepte esen
 
 #CAPTURA DE ECRAN
 
-![alt text](image-2.png)
+![alt text](proiect-cloud.png)

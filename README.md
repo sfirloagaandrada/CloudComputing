@@ -39,4 +39,5 @@ TechZone – Catalog Tehnologic este o aplicație web în care utilizatorii pot 
 Este o aplicație simplă, intuitivă, dar care pune în practică concepte esențiale precum operații CRUD, stocare în cloud și API-uri personalizate.
 
 #CAPTURA DE ECRAN
-![alt text](image-1.png)
+
+![alt text](image-2.png)

@@ -10,9 +10,9 @@ Utilizatorul poate filtra tehnologiile în funcție de categorie pentru o naviga
 
 Prin această aplicație, am integrat două tehnologii cloud esențiale:
 
-✅ MongoDB Atlas pentru stocarea datelor tehnologice
+ - MongoDB Atlas pentru stocarea datelor tehnologice
 
-✅ API personal Next.js pentru manipularea datelor din interfață
+ - API personal Next.js pentru manipularea datelor din interfață
 
 Descierea sericiilor cloud folosite: 
 
@@ -38,5 +38,5 @@ Acest API rulează local și comunică direct cu MongoDB Atlas prin funcții de 
 TechZone – Catalog Tehnologic este o aplicație web în care utilizatorii pot crea, vizualiza, edita și șterge informații despre tehnologii actuale din domeniul IT. Fiecare tehnologie are un titlu, o descriere și o categorie, precum Frontend, Backend, AI sau Database. Utilizatorul poate adăuga tehnologii manual, apoi le poate filtra după categorie pentru a naviga mai ușor printre ele.
 Este o aplicație simplă, intuitivă, dar care pune în practică concepte esențiale precum operații CRUD, stocare în cloud și API-uri personalizate.
 
-#CAPTURI DE ECRAN
-![alt text](image.png)
+#CAPTURA DE ECRAN
+![alt text](image-1.png)

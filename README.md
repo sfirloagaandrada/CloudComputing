@@ -1,4 +1,4 @@
-# IMNTRODUCERE PROIECT - CLOUD
+# IMNTRODUCERE PROIECT - CLOUDCOMPUTING
 Proiectul realizat pentru materia Cloud Computing constă într-o aplicație web simplă și intuitivă care demonstrează utilizarea a două servicii cloud: o bază de date NoSQL și un API personalizat. Scopul principal este gestionarea unui catalog de tehnologii moderne, unde utilizatorul poate adăuga, edita sau șterge informații despre diverse tehnologii.
 
 Aplicația este împărțită în două secțiuni esențiale:

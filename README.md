@@ -66,4 +66,6 @@ TechZone este o aplicație practică și utilă pentru orice dezvoltator care do
 
 ## Realizat pentru cursul de Cloud Computing
 
+Video YouTube: https://www.youtube.com/watch?v=OCIQAhvcJLU
+
 Va multumesc!

@@ -1,0 +1,56 @@
+body {
+  font-family: 'Segoe UI', 'Poppins', sans-serif;
+  background: linear-gradient(to bottom, #fdf6ec, #fffefc);
+  color: #4a3f35;
+}
+
+input,
+textarea,
+select {
+  background-color: #fffaf3;
+  border: 1px solid #f3e1cd;
+  padding: 0.5rem;
+  border-radius: 8px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #f7c59f;
+  outline: none;
+  box-shadow: 0 0 0 3px #fbe7d0;
+}
+
+button {
+  background-color: #f7c59f;
+  color: #5b4636;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: none;
+  transition: background-color 0.3s;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+}
+
+button:hover {
+  background-color: #f4b182;
+}
+.tech-card {
+  background-color: #fffafc;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.tech-card:hover {
+  transform: translateY(-4px);
+}
+footer {
+  text-align: center;
+  font-size: 0.875rem;
+  margin-top: 2rem;
+  padding: 1rem;
+  color: #a58b83;
+}

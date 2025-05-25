@@ -1,45 +1,69 @@
-# IMNTRODUCERE PROIECT - CLOUDCOMPUTING
-Proiectul realizat pentru materia Cloud Computing constă într-o aplicație web simplă și intuitivă care demonstrează utilizarea a două servicii cloud: o bază de date NoSQL și un API personalizat. Scopul principal este gestionarea unui catalog de tehnologii moderne, unde utilizatorul poate adăuga, edita sau șterge informații despre diverse tehnologii.
+# 💡 TechZone – Catalog Tehnologic
 
-Aplicația este împărțită în două secțiuni esențiale:
+##  Descriere
 
-Modulul CRUD – Catalog Tehnologic:
-Aici, utilizatorul poate crea, citi, edita și șterge tehnologii dintr-o bază de date. Fiecare tehnologie are un titlu, o descriere și o categorie (ex: Frontend, Backend, AI, Database). Acest modul mi-a permis să lucrez cu operații CRUD și să înțeleg integrarea bazei de date MongoDB Atlas prin API-uri Next.js.
+**TechZone – Catalog Tehnologic** este o aplicație web modernă, dezvoltată pentru cursul de **Cloud Computing**, care permite adăugarea, modificarea și organizarea tehnologiilor software. Proiectul ajută utilizatorii (dezvoltatori sau echipe) să creeze un catalog tehnologic personalizat, în care pot documenta diverse librării, frameworkuri, baze de date sau servicii cloud folosite în proiectele lor.
 
-Filtrare după categorie:
-Utilizatorul poate filtra tehnologiile în funcție de categorie pentru o navigare mai ușoară. Această funcționalitate adaugă un plus de interactivitate și demonstrează cum pot fi aplicate filtre dinamice asupra datelor dintr-un serviciu cloud.
+Scopul aplicației este să ofere o interfață clară, intuitivă și responsivă pentru gestionarea acestor tehnologii într-un mod eficient.
 
-Prin această aplicație, am integrat două tehnologii cloud esențiale:
+---
 
- - MongoDB Atlas pentru stocarea datelor tehnologice
+##  Introducere
 
- - API personal Next.js pentru manipularea datelor din interfață
+Proiectul se bazează pe două servicii cloud esențiale, integrate într-o aplicație web simplă și funcțională:
 
-Descierea sericiilor cloud folosite: 
+1. **Modul CRUD** – utilizatorul poate crea, citi, edita sau șterge înregistrări cu tehnologii. Această componentă a permis aplicarea practică a conceptelor de baze de date în cloud și a API-urilor personalizate pentru manipularea datelor.
+2. **Persistența în MongoDB Atlas** – toate datele sunt salvate și accesate dintr-o bază de date NoSQL găzduită în cloud.
 
-1. MongoDB Atlas
-MongoDB Atlas este o soluție de stocare NoSQL, în cloud, folosită pentru a salva date structurate despre tehnologii. În aplicația mea am gestionat o singură colecție:
+---
 
-records: fiecare înregistrare conține un title, description și category
+##  Funcționalități principale
 
-Datele sunt accesate și manipulate prin API-uri proprii scrise în: 
-- api/records
-Framework-ul folosit pentru acest backend este Next.js, care oferă server-side routing și API endpoints gata de producție.
-2. API intern Next.js
+- ✅ Adăugare tehnologie cu titlu, descriere și categorie
+- ✅ Editare rapidă a oricărei înregistrări
+- ✅ Ștergerea unei tehnologii din catalog
+- ✅ Căutare live după categorie (ex: “frontend”, “AI” etc.)
+- ✅ Interfață adaptată (responsive)
+- ✅ Integrare cu MongoDB Atlas (cloud database)
+- ✅ API personalizat pentru operații CRUD
 
-Am folosit API routes din Next.js pentru a:
+---
 
--adăuga tehnologii noi în baza de date
--edita sau șterge tehnologii existente
--extrage toate tehnologiile disponibile
--aplica filtrare în funcție de categorie
+##  Servicii cloud utilizate
 
-Acest API rulează local și comunică direct cu MongoDB Atlas prin funcții de tip GET, POST, PATCH, DELETE.
+### 1. **MongoDB Atlas**
 
-TechZone – Catalog Tehnologic este o aplicație web în care utilizatorii pot crea, vizualiza, edita și șterge informații despre tehnologii actuale din domeniul IT. Fiecare tehnologie are un titlu, o descriere și o categorie, precum Frontend, Backend, AI sau Database. Utilizatorul poate adăuga tehnologii manual, apoi le poate filtra după categorie pentru a naviga mai ușor printre ele.
-Este o aplicație simplă, intuitivă, dar care pune în practică concepte esențiale precum operații CRUD, stocare în cloud și API-uri personalizate.
+MongoDB Atlas este un serviciu cloud NoSQL folosit pentru stocarea și manipularea datelor aplicației.
 
-#CAPTURA DE ECRAN
+- Datele salvate includ: titlu, descriere și categorie
+- Am utilizat o singură colecție principală: `records`
+- Interacțiunea cu baza de date se face prin API-ul propriu creat în `/api/records`, folosind Next.js API routes
+
+---
+
+##  Tehnologii utilizate
+
+- **Next.js** – Framework React pentru aplicații web moderne
+- **Tailwind CSS** – Stilizare rapidă și elegantă
+- **MongoDB Atlas** – Bază de date NoSQL în cloud
+- **Vercel** (opțional) – Deploy rapid și gratuit pentru aplicații Next.js
+
+---
+
+##  Capturi de ecran
+![image](https://github.com/user-attachments/assets/cfda72dc-70d9-4068-a6ee-b454161a5b24)
+![image](https://github.com/user-attachments/assets/63282f79-ef38-454b-aa0a-413e2b99eb78)
+![image](https://github.com/user-attachments/assets/24355729-f068-42f3-a1dc-b93212830d95)
 
 
-![proiect-cloud](https://github.com/user-attachments/assets/c0c8d541-fcaf-4cbf-a90d-b07983ada53c)
+---
+
+##  Concluzie
+
+TechZone este o aplicație practică și utilă pentru orice dezvoltator care dorește să-și structureze stack-ul tehnologic. Folosirea MongoDB în cloud și a API-urilor personalizate într-un mediu Next.js demonstrează integrarea completă a serviciilor moderne cloud într-un proiect real.
+
+---
+
+## Realizat pentru cursul de Cloud Computing
+
+Va multumesc!

@@ -1,40 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+Proiectul realizat pentru materia Cloud Computing constă într-o aplicație web simplă și intuitivă care demonstrează utilizarea a două servicii cloud: o bază de date NoSQL și un API personalizat. Scopul principal este gestionarea unui catalog de tehnologii moderne, unde utilizatorul poate adăuga, edita sau șterge informații despre diverse tehnologii.
 
-## Getting Started
+Aplicația este împărțită în două secțiuni esențiale:
 
-First, run the development server:
+Modulul CRUD – Catalog Tehnologic:
+Aici, utilizatorul poate crea, citi, edita și șterge tehnologii dintr-o bază de date. Fiecare tehnologie are un titlu, o descriere și o categorie (ex: Frontend, Backend, AI, Database). Acest modul mi-a permis să lucrez cu operații CRUD și să înțeleg integrarea bazei de date MongoDB Atlas prin API-uri Next.js.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Filtrare după categorie:
+Utilizatorul poate filtra tehnologiile în funcție de categorie pentru o navigare mai ușoară. Această funcționalitate adaugă un plus de interactivitate și demonstrează cum pot fi aplicate filtre dinamice asupra datelor dintr-un serviciu cloud.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Prin această aplicație, am integrat două tehnologii cloud esențiale:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+✅ MongoDB Atlas pentru stocarea datelor tehnologice
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+✅ API personal Next.js pentru manipularea datelor din interfață
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+Descierea sericiilor cloud folosite: 
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. MongoDB Atlas
+MongoDB Atlas este o soluție de stocare NoSQL, în cloud, folosită pentru a salva date structurate despre tehnologii. În aplicația mea am gestionat o singură colecție:
 
-## Learn More
+records: fiecare înregistrare conține un title, description și category
 
-To learn more about Next.js, take a look at the following resources:
+Datele sunt accesate și manipulate prin API-uri proprii scrise în: 
+- api/records
+Framework-ul folosit pentru acest backend este Next.js, care oferă server-side routing și API endpoints gata de producție.
+2. API intern Next.js
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+Am folosit API routes din Next.js pentru a:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+-adăuga tehnologii noi în baza de date
+-edita sau șterge tehnologii existente
+-extrage toate tehnologiile disponibile
+-aplica filtrare în funcție de categorie
 
-## Deploy on Vercel
+Acest API rulează local și comunică direct cu MongoDB Atlas prin funcții de tip GET, POST, PATCH, DELETE.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+TechZone – Catalog Tehnologic este o aplicație web în care utilizatorii pot crea, vizualiza, edita și șterge informații despre tehnologii actuale din domeniul IT. Fiecare tehnologie are un titlu, o descriere și o categorie, precum Frontend, Backend, AI sau Database. Utilizatorul poate adăuga tehnologii manual, apoi le poate filtra după categorie pentru a naviga mai ușor printre ele.
+Este o aplicație simplă, intuitivă, dar care pune în practică concepte esențiale precum operații CRUD, stocare în cloud și API-uri personalizate.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+#CAPTURI DE ECRAN
+![alt text](image.png)

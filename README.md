@@ -40,4 +40,5 @@ Este o aplicație simplă, intuitivă, dar care pune în practică concepte esen
 
 #CAPTURA DE ECRAN
 
-![alt text](proiect-cloud.png)
+
+![proiect-cloud](https://github.com/user-attachments/assets/c0c8d541-fcaf-4cbf-a90d-b07983ada53c)
